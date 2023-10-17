@@ -1,0 +1,25 @@
+{
+  "name": "amwt-card-game",
+  "version": "1.0.0",
+  "description": "online magic based card game",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm run build-client && node server",
+    "start-local": "npm run build-client && PORT=4040 node server",
+    "build-client": "cd client && npm run build && cd .."
+  },
+  "author": "felipeGarciaDiaz, keithPHD",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.1",
+    "pg": "^8.11.3",
+    "sass": "^1.68.0",
+    "sequelize": "^6.33.0",
+    "socket.io": "^4.7.2",
+    "sqlite3": "^5.1.6"
+  }
+}

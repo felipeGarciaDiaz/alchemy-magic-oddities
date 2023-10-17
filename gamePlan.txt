@@ -1,0 +1,64 @@
+Title: "Mystical Mayhem: Wizards and Wonders"
+
+Overview:
+"Mystical Mayhem: Wizards and Wonders" is a fun and strategic card game that combines the chaotic elements of "Exploding Kittens" with the whimsical world of "Unstable Unicorns." In this game, players take on the roles of mischievous wizards seeking to create mayhem and collect powerful magical creatures to win the game. The goal is to be the last wizard standing.
+
+Components:
+120 Spell Cards - These cards are used to create mayhem, sabotage opponents, and protect yourself.
+40 Magical Creature Cards - Collect these creatures to build your army and increase your chances of winning.
+20 Potion Cards - Potions provide special one-time-use abilities to gain an advantage.
+10 Wizard Cards - Each player selects a unique wizard with a special power at the start of the game.
+1 Game Board - To keep track of the magical creatures you've collected.
+1 Rulebook - Contains all the instructions and rules for the game.
+Tokens and Markers - Used for tracking various game elements.
+[7:45 PM]
+Setup:
+Shuffle the Spell Cards, Magical Creature Cards, and Potion Cards separately, and place them face down in their respective decks.
+Each player selects a Wizard Card and places it in front of them, activating their unique power.
+Deal 7 Spell Cards to each player.
+Place the game board in the center of the table.
+
+Gameplay:
+The game consists of a series of rounds. On your turn, you must:
+
+Draw a Spell Card from the deck.
+Play one Spell Card from your hand. Spells can do various things, such as forcing opponents to discard cards, stealing creatures, or protecting yourself.
+
+You can also choose to:
+
+Play a Potion Card at any time to activate its special ability.
+Use your Wizard's unique power once per turn.
+Collect a Magical Creature by matching a specific combination of Spell Cards and placing it on the game board in front of you.
+
+The objective is to collect a set number of Magical Creatures to win the game. The number required can be adjusted based on the desired game length.
+
+Special Cards:
+Exploding Cauldron: Similar to "Exploding Kittens," if a player draws this card, they must immediately play a Defuse Spell or lose the game.
+Unstable Portal: A card that allows you to swap Magical Creatures with another player.
+Spellbook of Secrets: A card that lets you draw three Spell Cards and play an extra Spell Card on your turn.
+
+Winning:
+The first player to collect the required number of Magical Creatures wins the game. However, players can still sabotage each other until the last moment, keeping the game unpredictable and full of surprises.
+
+"Mystical Mayhem: Wizards and Wonders" is a delightful combination of strategy, magic, and mayhem that will keep players engaged and entertained for hours. Explore the world of mischievous wizards and whimsical creatures, and may the best wizard win!
+[7:45 PM]
+Bro, since you've showed me your project, and since I had that old roommate who had that card game idea, I asked chatGPT to create a card-game
+[7:46 PM]
+what do you think of this? It actually sounds kinda cool for an online card game lol.
+[7:47 PM]
+we could probably monetize it with making paid wizard cards or doing ads.
+
+
+
+
+
+
+
+
+
+
+
+Alchemy:
+
+
+Users have health, aclehmy is used to create the creatures. Creatures have the ability to attack the users, and also influence the game with special effects.

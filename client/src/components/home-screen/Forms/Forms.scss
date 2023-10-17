@@ -1,0 +1,182 @@
+button:hover {
+	transform: scale(1.05);
+	transition: 0.5s;
+}
+
+* {
+	//outline: 1px solid red;
+}
+.start-game-form {
+	display: flex;
+	flex-direction: column; // stack children vertically
+	align-items: center;
+	justify-content: center;
+	text-align: left;
+	margin-top: 5%;
+	margin-left: 8%;
+	margin-right: 8%;
+	.start-game-form-inputs {
+
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 25px;
+		
+		input {
+			border: none;
+			outline: none;
+			background-color: #a599dd;
+			font-family: 'Press Start 2P', cursive;
+			color: #ffffff;
+			height: 42px;
+			border-radius: 5px;
+			width: 100%;
+			font-size: 18px;
+			//padding-left: 2%;
+		}
+		.email-container, 
+		.username-container, 
+		.password-container, 
+		.confirm-password-container {
+			position: relative;
+		}
+		
+		p {
+			padding-top: 1%;
+			padding-bottom: 5%;
+			color: #ff70b5;
+			letter-spacing: 1px;
+		}
+
+		label {
+			font-size: 18px;
+			letter-spacing: 1px;
+			margin-bottom: 8px;
+			width: 40%;
+			text-wrap: nowrap;
+
+		}
+		.email-container {
+			grid-column: span 2;  
+			width: 100%;
+		}
+	}
+	p {
+		padding: 0;
+		margin: 0;
+		font-size: 12px;
+		color: #ff007b;
+		letter-spacing: 1px;
+		position: absolute;
+		bottom: -20px;  // Adjust this value to position the error text right below the input
+		left: 0;
+		right: 0;
+		white-space: nowrap;
+
+	}
+	.create-account-buttons{
+		
+		button {
+			color: #ffffff;
+			background-color: #ff6161;
+			border: none;
+			border-radius: 5px;
+			height: 42px;
+			font-family: 'Press Start 2P', cursive;
+			text-wrap: nowrap;
+			cursor: pointer;
+			width: 100%;
+			transition: transform 0.5s;
+		}
+
+	}
+	
+}
+
+// Media Queries for responsiveness
+
+// For tablets
+@media (max-width: 992px) {
+	.start-game-form {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-left: 10%;
+		margin-right: 10%;
+		.start-game-form-buttons {
+			justify-content: space-between; /* Adjusts the spacing between the buttons */
+
+			.join-button,
+			.create-button {
+				font-size: 20px;
+				border: 1px solid #ff007b;
+
+			}
+		}
+	}
+}
+@media (max-width: 768px) {
+
+	.start-game-form {
+		display: flex;
+		flex-direction: column;
+		.start-game-form-inputs {
+			display: grid;
+			grid-template-columns: 1fr;
+			margin-left: 5%;
+			margin-right: 5%;
+			.email-container {
+				grid-column: span 1;
+				width: 100%;
+			}
+			.create-account-buttons {
+				button{
+					
+					font-size: 14px;
+
+				}
+			}
+		}
+		p {
+			font-size: 9px;
+		}
+	}
+	p {
+		margin-top: 15px;
+		font-size: 12px;
+	}
+}
+
+// For mobile devices
+@media (max-width: 480px) {
+	.start-game-form {
+		margin-left: 15%;
+		margin-right: 15%;
+		.start-game-form-inputs {
+			input {
+				font-size: 12px;
+			}
+
+			label {
+				font-size: 12px;
+			}
+		}
+		label,
+		input {
+			font-size: 14px;
+		}
+		.create-account-buttons {
+			flex-direction: column;
+			margin-top: 60px;
+
+			button{
+				margin-top: 0;
+				height: 64px;
+				width: 100%;
+				font-size: 16px;
+			}
+		}
+	}
+	p {
+		font-size: 9px;
+	}
+}

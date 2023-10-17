@@ -24,7 +24,7 @@ coverage
 # dotenv environment variables file
 .env*
 !.env.example
-
+*.env
 # OS-specific
 .DS_Store
 Thumbs.db
